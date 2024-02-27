@@ -1,4 +1,5 @@
-<h2 align="left">Hi 👋! I'm Hephzibah </h2>
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Hephzibah A
+===================================================================================================================================
 
 ###
 
@@ -62,6 +63,8 @@
 </div>
 
 ###
-<div align="center">
-[![](https://visitcount.itsvg.in/api?id=Hephzibah-A&icon=0&color=5)](https://visitcount.itsvg.in)
-</div>
+### Badges
+
+<b>My GitHub Stats</b>
+
+<a href="http://www.github.com/Hephzibah-A"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hephzibah-A&bg_color=1c1917&color=ffffff&line=a855f7&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
