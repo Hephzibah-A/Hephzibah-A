@@ -63,8 +63,3 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 </div>
 
 ###
-### Badges
-
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/Hephzibah-A"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=Hephzibah-A&bg_color=1c1917&color=ffffff&line=a855f7&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
