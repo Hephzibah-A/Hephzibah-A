@@ -1,5 +1,5 @@
 
-# <h2>
+ <h2>
     <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35">
     <span style="color: #ff2e97">Tech Stack</span>
     <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35">
@@ -51,12 +51,11 @@
  Java            9.1% ▓▓▓▓                
  Jupyter Notebook 9.1% ▓▓▓▓                
 ```
-###
 
-<img src="https://raw.githubusercontent.com/Hephzibah-A/Hephzibah-A/output/snake.svg" alt="Snake animation" />
 
 ###
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I genuinely enjoy connecting with new people</b> so if you'd like to say <b>hi, I'd be delighted to get to know you better!</b> :)</em>
 
 [![](https://visitcount.itsvg.in/api?id=Hephzibah-A&icon=0&color=13)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
