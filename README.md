@@ -45,11 +45,12 @@
   </h2>
 
 ```diff
- ASSET ALLOCATION BY LANGUAGE
- HTML            27.3% ▓▓▓▓▓▓▓▓▓▓▓▓▓       
- CSS             27.3% ▓▓▓▓▓▓▓▓▓▓▓▓▓       
- Java            9.1% ▓▓▓▓                
- Jupyter Notebook 9.1% ▓▓▓▓                
+! ASSET ALLOCATION BY LANGUAGE
++ HTML            25.0% ▓▓▓▓▓▓▓▓▓▓▓▓        
++ CSS             25.0% ▓▓▓▓▓▓▓▓▓▓▓▓        
+- Java            8.3% ▓▓▓▓                
+- TypeScript      8.3% ▓▓▓▓                
+- Jupyter Notebook 8.3% ▓▓▓▓                
 ```
 
 
