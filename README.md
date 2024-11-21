@@ -44,14 +44,8 @@
     Developer Metrics
   </h2>
 
-```diff
-! ASSET ALLOCATION BY LANGUAGE
-+ HTML            25.0% ▓▓▓▓▓▓▓▓▓▓▓▓        
-+ CSS             25.0% ▓▓▓▓▓▓▓▓▓▓▓▓        
-- Java            8.3% ▓▓▓▓                
-- TypeScript      8.3% ▓▓▓▓                
-- Jupyter Notebook 8.3% ▓▓▓▓                
-```
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 
 ###
