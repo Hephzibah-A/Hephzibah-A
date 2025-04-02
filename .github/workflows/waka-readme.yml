@@ -10,12 +10,16 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: Hephzibah-A/waka-readme@master  # Use your forked repository
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Update WakaTime Readme
+        uses: Hephzibah-A/waka-readme@main  # Ensure the branch name is correct
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # GitHub Token (Check if it's set in secrets)
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}  # WakaTime API Key
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           API_BASE_URL: https://wakatime.com/api
-          REPOSITORY: Hephzibah-A/Hephzibah-A  # Corrected repository name
+          REPOSITORY: Hephzibah-A/Hephzibah-A
           SHOW_TITLE: true
           SECTION_NAME: waka
           BLOCKS: ->
@@ -28,7 +32,7 @@ jobs:
           STOP_AT_OTHER: true
           IGNORED_LANGUAGES: YAML, JSON, TOML
           COMMIT_MESSAGE: "Updated waka-readme graph with new metrics"
-          TARGET_BRANCH: main  # Change to 'master' if applicable
+          TARGET_BRANCH: main
           TARGET_PATH: README.md
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.com
