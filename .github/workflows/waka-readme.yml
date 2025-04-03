@@ -1,40 +1,58 @@
+# name: Waka Readme
+# uses: athul/waka-readme@v0.3.1
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: "0 0 * * *" # Runs daily at 12 AM UTC (5:30 AM IST)
+
+# jobs:
+#   update-readme:
+#     name: WakaReadme DevMetrics
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v2
+
+#       - name: Update WakaTime Readme
+#         uses: Hephzibah-A/waka-readme@main  # Ensure the branch name is correct
+#         with:
+#           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+#           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+#           API_BASE_URL: https://wakatime.com/api
+#           REPOSITORY: Hephzibah-A/Hephzibah-A
+#           SHOW_TITLE: true
+#           SECTION_NAME: waka
+#           BLOCKS: ->
+#           CODE_LANG: rust
+#           TIME_RANGE: all_time
+#           LANG_COUNT: 10
+#           SHOW_TIME: true
+#           SHOW_TOTAL: true
+#           SHOW_MASKED_TIME: false
+#           STOP_AT_OTHER: true
+#           IGNORED_LANGUAGES: YAML, JSON, TOML
+#           COMMIT_MESSAGE: "Updated waka-readme graph with new metrics"
+#           TARGET_BRANCH: main
+#           TARGET_PATH: README.md
+#           COMMITTER_NAME: GitHubActionBot
+#           COMMITTER_EMAIL: action-bot@github.com
+#           AUTHOR_NAME: HEPHZIBAH-A
+#           AUTHOR_EMAIL: hephzibahantony11@gmail.com
+
 name: Waka Readme
-uses: athul/waka-readme@v0.3.1
+
 on:
+  # for manual workflow trigger
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at 12 AM UTC (5:30 AM IST)
+    # runs at 12 AM UTC (5:30 AM IST)
+    - cron: "0 0 * * *"
 
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Update WakaTime Readme
-        uses: Hephzibah-A/waka-readme@main  # Ensure the branch name is correct
+      - uses: athul/waka-readme@master # this action name
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          API_BASE_URL: https://wakatime.com/api
-          REPOSITORY: Hephzibah-A/Hephzibah-A
-          SHOW_TITLE: true
-          SECTION_NAME: waka
-          BLOCKS: ->
-          CODE_LANG: rust
-          TIME_RANGE: all_time
-          LANG_COUNT: 10
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          SHOW_MASKED_TIME: false
-          STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: YAML, JSON, TOML
-          COMMIT_MESSAGE: "Updated waka-readme graph with new metrics"
-          TARGET_BRANCH: main
-          TARGET_PATH: README.md
-          COMMITTER_NAME: GitHubActionBot
-          COMMITTER_EMAIL: action-bot@github.com
-          AUTHOR_NAME: HEPHZIBAH-A
-          AUTHOR_EMAIL: hephzibahantony11@gmail.com
