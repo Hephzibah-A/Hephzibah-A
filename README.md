@@ -64,7 +64,7 @@ Other             15 hrs 31 mins  >>-----------------------   08.42 %
 
 
 ###
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I genuinely enjoy connecting with new people</b> so if you'd like to say <b>hi, I'd be delighted to get to know you better!</b> :)</em>
+<em><b>I genuinely enjoy connecting with new people</b> so if you'd like to say <b>hi, I'd be delighted to get to know you better!</b> :)</em>
 
 <a href="https://u8views.com/github/Hephzibah-A"><img src="https://u8views.com/api/v1/github/profiles/115784351/views/day-week-month-total-count.svg"></a>
 
