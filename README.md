@@ -51,13 +51,13 @@
 <!--START_SECTION:waka-->
 
 ```rust
-From: 20 November 2024 - To: 10 April 2025
+From: 20 November 2024 - To: 11 April 2025
 
-Total Time: 170 hrs 5 mins
+Total Time: 173 hrs 14 mins
 
-Java              58 hrs 59 mins  >>>>>>>>-----------------   31.78 %
-HTML              52 hrs 55 mins  >>>>>>>------------------   28.51 %
-Other             15 hrs 31 mins  >>-----------------------   08.36 %
+Java              60 hrs 43 mins  >>>>>>>>-----------------   32.17 %
+HTML              53 hrs 54 mins  >>>>>>>------------------   28.56 %
+Other             15 hrs 31 mins  >>-----------------------   08.22 %
 ```
 
 <!--END_SECTION:waka-->
