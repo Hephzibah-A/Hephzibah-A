@@ -20,9 +20,11 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           API_BASE_URL: https://wakatime.com/api
           REPOSITORY: Hephzibah-A/Hephzibah-A
+          
+          # Display Settings
           SHOW_TITLE: true
           SECTION_NAME: waka
-          BLOCKS: ->
+          BLOCKS: ░▒▓█              # ✅ Updated block design
           CODE_LANG: rust
           TIME_RANGE: all_time
           LANG_COUNT: 10
@@ -30,7 +32,10 @@ jobs:
           SHOW_TOTAL: true
           SHOW_MASKED_TIME: false
           STOP_AT_OTHER: true
+          SHOW_UPDATED_DATE: false   # ✅ Hides "From: ... To: ..." line
           IGNORED_LANGUAGES: YAML, JSON, TOML
+          
+          # Commit Settings
           COMMIT_MESSAGE: "Updated waka-readme graph with new metrics"
           TARGET_BRANCH: main
           TARGET_PATH: README.md
